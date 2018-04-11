@@ -1,0 +1,24 @@
+
+
+ - routing (including Route, Redirect, Switch, NavLinks, etc)
+ - handling POST / GET requests to server (firebase) via Axios
+ - error handling - local and global
+ - handling form validation and dynamic form set up via react
+ - Multipage feeling in single page app
+ - using interceptors for global error checking
+ - using lifecyle hooks componentDidMount / componentWillMound / componentDidUpdate
+ - very granular structure for maximum reusability (familiarization)
+ - redux for state management
+ - handling asynchronous http calls through redux-thunk 
+ - using action creators
+ - refactored reducers - outsourced utility function and other local functions to make the reducer as readable as possible
+ - email and password authentication - sign up and sign in functionality
+ - handling protected resources on the server depending on if a user is signed in or not
+ - handling persistent authentication state with local storage to avoid the issue of being kicked out on page refresh
+ - storing and retrieving previous orders for specific users
+ - authentication / validation / auto sign in through local storage on page refresh
+ - managing tokens and authentication on single page app
+ - page guarding
+ - unit testing with Jest and Enzyme (function and class based components)
+ - testing redux action creators
+ - responsive design + sidebar navigation for mobile devices
