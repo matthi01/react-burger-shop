@@ -1,10 +1,11 @@
 
-To run locally: 
+<b>To run locally:</b> 
 - Navigate to project folder
 - Run "npm install" in the project folder
 - Run "npm start" to view the project
 
-Production version of the app is available at: https://react-burger-shop-5c0c7.firebaseapp.com/
+
+<b>Production version of the app is available at: https://react-burger-shop-5c0c7.firebaseapp.com/ </b>
 
 The Burger Shop app is a single page application with a multi page feeling. It was a good way to get started and learn the basics up to the advanced details of React and Redux. 
 The application allows you to piece together a burger order, place the order with detailed order information after signing in with an email and password. This authentication and order information is then stored on Firebase. each user can also view previously placed orders, which will fetch any previous orders from the server.
@@ -12,7 +13,7 @@ Page refreshes have been handled by keeping access tokens in local storage and a
 
 
 
-Implementation details - things learned by working on this project:
+<b>Implementation details - things learned by working on this project:</b>
 
  - routing on a single page application (including Route, Redirect, Switch, NavLinks, etc)
  - handling POST / GET requests to server (firebase) via Axios
